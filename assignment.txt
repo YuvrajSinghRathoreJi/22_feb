@@ -1,0 +1,263 @@
+1)
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	printf("enter the value of a and b :");
+	scanf("%d %d",&a,&b);
+	if(a>=b)
+	{
+		printf("a is greater than b");
+		}
+
+	else
+	{
+		printf("b is greater than a");
+	}
+
+	return 0;
+}
+
+—————————————————————————————————
+ 2) #include<stdio.h>
+int main()
+{
+	int a,b;
+	printf("enter the value of a and b:");
+	scanf ("%d %d",&a,&b);
+
+	if(a<=b)
+	{
+		printf("a is greater then b");
+	}
+ else
+ {
+     printf("b is greater then a");
+ }
+	return 0;
+} 
+
+
+——————————————————————————
+ 3) #include<stdio.h>
+int main()
+{
+	int a,b,c;
+	printf("enter the value of a,b and c:");
+	scanf ("%d %d %d",&a,&b,&c );
+
+	if(a>=b)
+	{
+		printf("a is greater");
+	} 
+ else if(b>=c)
+ {
+     printf("b is greater ");
+ }
+ else{
+     printf("c is greater ");
+ }
+	return 0;
+} 
+
+
+
+
+
+————————————————————————————————
+4)
+
+
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,e;
+	printf("enter the value of a,b,c,d and e:");
+	scanf ("%d %d %d %d %d",&a,&b,&c,&d,&e );
+
+	if(a<b)
+	{
+		printf("a is minimum");
+	} 
+ else if(b>=c)
+ {
+     printf("b is minimumm ");
+ } 
+ else if(b>=c)
+ {
+     printf("c is minimumm ");
+ }
+ else if(c>=d)
+ {
+     printf("d is minimumm ");
+ }
+ else{
+     printf("e is minimumm ");
+ }
+	return 0;
+}
+
+
+
+
+——————————————————————————————  
+5)
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter the value ");
+	scanf ("%d",&a);
+
+	if(a>0)
+	{
+		printf("posative");
+	} 
+ else if(a<0)
+ {
+     printf(" nagitive");
+ }
+ else{
+     printf("zero ");
+ }
+	return 0;
+}
+—————————————————————————————— 
+6)
+#include <stdio.h>
+
+int main()
+{
+    char p;
+    
+    printf("enter the character:");
+    scanf("%c",&p);
+
+    if (p == 'a' || p == 'A' || p == 'e' || p == 'E'
+        || p == 'i' || p == 'I' || p == 'o' || p == 'O'
+        || p == 'u' || p == 'U') {
+ 
+        printf(" %c is a vowel\n", p);
+    }
+    else {
+        printf(" %c is a consonant\n", p);
+    }
+ 
+    return 0;
+}
+————————————————————————————— 
+7)
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter the value ");
+	scanf ("%d",&a);
+
+	if((a%5==0)||(a%11==0))
+	{
+		printf("number is divesibal");
+	} 
+ else 
+ {
+     printf(" not divesible");
+ }
+ 
+	return 0;
+} 
+
+
+——————————————————————————— 
+8)
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter the value ");
+	scanf ("%d",&a);
+
+	if((a%5==0)||(a%11==0))
+	{
+		printf("number is divesibal");
+	} 
+ else 
+ {
+     printf(" not divesible");
+ }
+ 
+	return 0;
+
+}
+
+————————————————————————————
+9a)
+#include<stdio.h>
+int main()
+{
+	
+		int a,b,c;
+		printf("enter the value of a,b and c:");
+		scanf("%d %d %d",&a,&b,&c);
+		c=a;
+		a=b;
+		b=c;
+		printf("swaping value of a  %d\n",a);
+		printf("swaping value of b  %d",b);
+		
+
+
+	
+
+	return 0;
+}
+
+
+
+—————————————————————————————— 
+9b)
+#include<stdio.h>
+int main()
+{
+		int a,b;
+		printf("enter the value of a and b :");
+		scanf("%d %d",&a,&b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		printf("swaping value of a  %d\n",a);
+		printf("swaping value of b  %d",b);
+		
+
+	return 0;
+}
+
+
+———————————————————————————————— 
+10)
+
+#include <stdio.h>
+
+int main()
+{
+    int marks; 
+    printf("enter the marks of student :%d",marks); 
+    scanf("%d",&marks);
+    if(marks>=90){
+        printf("Greater than 90 excellent marks ");
+    }
+
+else if(marks >50 && marks<90){
+    printf("Good marks");
+}
+    else if(marks>=20 && marks<=50){
+        printf("Greater than 20 and less than 50");
+    }
+        else{
+        printf("Greater than 20");
+    }
+
+
+    return 0;
+} 
+
